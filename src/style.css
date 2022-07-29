@@ -4,11 +4,14 @@
 html {
   scroll-snap-points-y: repeat(100vh);
   scroll-snap-type: y mandatory;
+  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🎉</text></svg>")
+  16 0,
+  auto;
 }
 
 body {
   background-image: linear-gradient(120deg, #ffcac9 0%, #737dfe 100%);
-  height: 6000px;
+  height: 8500px;
 }
 
 section {
@@ -21,12 +24,11 @@ p {
 
 .title {
   position: relative;
-  font-size: 8em;
   overflow: hidden;
   color: white;
   font-family: "Miriam Libre", sans-serif;
   text-align: center;
-  margin: 20px;
+  font-size: 7.2em;
 }
 
 .subtitle {
@@ -44,12 +46,20 @@ p {
   font-size: 3.5em;
 }
 
-a {
+.desc {
   color: white;
-  text-decoration: none;
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 2em;
+  margin-bottom: 2em;
 }
 
-a:hover {
+.fa {
+  color: white;
+  text-decoration: none;
+  font-size: 1.7em;
+}
+
+.fa:hover {
   color: white;
   text-decoration: none;
 }
@@ -129,7 +139,7 @@ a:hover {
   flex-direction: column;
   background-color: white;
   height: var(--parent-height);
-  width: 30%;
+  width: 60%;
   margin: 0 auto;
 }
 
