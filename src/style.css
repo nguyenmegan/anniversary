@@ -50,7 +50,9 @@ p {
   color: white;
   font-family: "Roboto Mono", sans-serif;
   font-size: 2em;
-  margin-bottom: 2em;
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .fa {
