@@ -13,7 +13,7 @@ const hour = minute * 60;
 const day = hour * 24;
 const year = day * 365;
 
-var anniversary = new Date("08/05/2018");
+var anniversary = new Date("08/05/2022");
 
 const timeSinceFn = () => {
   const today = new Date();
